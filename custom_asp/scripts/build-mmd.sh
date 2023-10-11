@@ -68,7 +68,7 @@ else
   CMAKE_OPAE_ARG=""
 fi
 
-CMAKE_ASP_AFU_ID_ARG="-DASP_AFU_ID=N6001"
+CMAKE_ASP_AFU_ID_ARG="-DASP_AFU_ID=CUSTOM_ASP"
 
 export CC=${CC:-$(which gcc)}
 export CXX=${CXX:-$(which g++)}
